@@ -6,6 +6,8 @@ A one-step technique for making an AI coding agent stop skim-reading a document
 it must read in full. Costs nothing, works before the file is opened, and
 survives across tools.
 
+日本語版：[README.ja.md](README.ja.md)
+
 ---
 
 ## The problem
