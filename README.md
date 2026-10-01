@@ -8,6 +8,19 @@ survives across tools.
 
 日本語版：[README.ja.md](README.ja.md)
 
+## Use it now
+
+1. Pick one file that an agent must read in full (a design document, a spec).
+2. Rename it so the name carries the constraint:
+
+```
+mv design-philosophy.md "design-philosophy(do-not-read-in-part).md"
+```
+
+3. Update the paths that point to it (your `CLAUDE.md`, links, scripts). Do not rewrite old logs.
+
+That is all. Keep it to a few files; if every file says this, it stops standing out. Why it works, and its limits, are below.
+
 ---
 
 ## The problem
